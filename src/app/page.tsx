@@ -17,7 +17,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-m-1759145786064-c162ac74.jpg"
-          logoAlt="MemNova Logo"
           onButtonClick={() => {}}
           buttonText="Join MEM"
           navItems={
