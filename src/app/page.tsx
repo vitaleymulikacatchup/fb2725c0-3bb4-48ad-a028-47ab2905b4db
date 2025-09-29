@@ -48,9 +48,9 @@ export default function Home() {
       <div id="roadmap" data-section="roadmap" style={{ background: 'linear-gradient(135deg, #0b0f14 0%, #0a1020 100%)' }}>
         <StackRoadmapTimeline
           items={[
-            { title: 'Project Genesis', description: 'Foundation phase with research and core infrastructure.' },
-            { title: 'Launch', description: 'Official memecoin launch and community building.' },
-            { title: 'Growth', description: 'Scaling and expanding the ecosystem.' }
+            { id: 1, title: 'Project Genesis', description: 'Foundation phase with research and core infrastructure.', image: "https://example.com/image1.jpg" },
+            { id: 2, title: 'Launch', description: 'Official memecoin launch and community building.', image: "https://example.com/image2.jpg" },
+            { id: 3, title: 'Growth', description: 'Scaling and expanding the ecosystem.', image: "https://example.com/image3.jpg" }
           ]}
         />
       </div>
