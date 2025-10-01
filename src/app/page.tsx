@@ -9,7 +9,7 @@ import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import TextGridTokenomics from '@/components/sections/layouts/tokenomics/TextGridTokenomics';
 import WalletFooter from '@/components/sections/layouts/footer/WalletFooter';
 
-const theme: SiteTheme = { styleVariant: 'futuristicAndOutOfBox', colorTemplate: 2, textAnimation: 'slide' };
+const theme: SiteTheme = { styleVariant: 'futuristicAndOutOfBox', colorTemplate: 2, textAnimation: 'slide' }; 
 
 export default function Home() {
   return (
@@ -36,13 +36,13 @@ export default function Home() {
           title="Join the Futuristic Memecoin Revolution!"
           subtitle="Fast, community-powered momentum for memecoin fans"
           contractAddress="0x123456789abcdef"
-          copyButtonText="Copy to clipboard"
+          copyButtonText="Copy contract address"
           copiedText="Copied!"
         />
       </div>
       <div id="about" data-section="about" style={{ background: 'linear-gradient(135deg, #0b0f14 0%, #0a1020 100%)' }}>
         <SplitAbout
-          description="MemNova unites community-driven innovation with transparent tokenomics to reward participation."
+          description="MemNova unites community-driven innovation for rewarding participation."
         />
       </div>
       <div id="roadmap" data-section="roadmap" style={{ background: 'linear-gradient(135deg, #0b0f14 0%, #0a1020 100%)' }}>
@@ -66,7 +66,8 @@ export default function Home() {
           tokenData={[
             { value: '1M', description: 'Total Supply' },
             { value: '20%', description: 'Liquidity' },
-            { value: '5%', description: 'Development Fund' }
+            { value: '5%', description: 'Development Fund' },
+            { value: '10%', description: 'Market Cap' }
           ]}
         />
       </div>
@@ -74,7 +75,7 @@ export default function Home() {
         <WalletFooter
           logoText="MemNova"
           walletAddress="0x123456789abcdef"
-          copyButtonText="Copy Address"
+          copyButtonText="Copy Wallet Address"
           copiedText="Address Copied!"
           copyrightText="&copy; 2023 MemNova. All Rights Reserved."
         />
