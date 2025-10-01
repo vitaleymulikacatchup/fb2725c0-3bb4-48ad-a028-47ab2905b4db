@@ -33,8 +33,8 @@ export default function Home() {
       </div>
       <div id="hero" data-section="hero" style={{ background: 'linear-gradient(135deg, #0b0f14 0%, #0a1020 100%)' }}>
         <TokenBillboardHero
-          title="Join the Memecoin Revolution!"
-          subtitle="Fast, community-powered momentum for memecoin fans"
+          title="Own the Memecoin Moment"
+          subtitle="Join a fast-growing, community-powered launch with transparent rewards."
           contractAddress="0x123456789abcdef"
           copyButtonText="Copy Address"
           copiedText="Copied!"
@@ -67,7 +67,7 @@ export default function Home() {
             { value: '1,000,000', description: 'Total Supply' },
             { value: '20%', description: 'Liquidity' },
             { value: '5%', description: 'Development Fund' },
-            { value: '10%', description: 'Market Cap' }
+            { value: '10%', description: 'Governance Treasury/Rewards' }
           ]}
         />
       </div>
