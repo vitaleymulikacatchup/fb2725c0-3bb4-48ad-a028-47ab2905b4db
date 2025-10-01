@@ -33,10 +33,10 @@ export default function Home() {
       </div>
       <div id="hero" data-section="hero" style={{ background: 'linear-gradient(135deg, #0b0f14 0%, #0a1020 100%)' }}>
         <TokenBillboardHero
-          title="Join the Futuristic Memecoin Revolution!"
+          title="Join the Memecoin Revolution!"
           subtitle="Fast, community-powered momentum for memecoin fans"
           contractAddress="0x123456789abcdef"
-          copyButtonText="Copy contract address"
+          copyButtonText="Copy Address"
           copiedText="Copied!"
         />
       </div>
@@ -48,9 +48,9 @@ export default function Home() {
       <div id="roadmap" data-section="roadmap" style={{ background: 'linear-gradient(135deg, #0b0f14 0%, #0a1020 100%)' }}>
         <StackRoadmapTimeline
           items={[
-            { id: 1, title: 'Genesis', description: 'Foundations/core infrastructure.', image: "https://example.com/image1.jpg" },
-            { id: 2, title: 'Launch', description: 'Token debut/liquidity.', image: "https://example.com/image2.jpg" },
-            { id: 3, title: 'Growth', description: 'Ecosystem expansion and partnerships.', image: "https://example.com/image3.jpg" }
+            { id: 1, title: 'Genesis', description: 'Governance foundations.', image: "https://example.com/image1.jpg" },
+            { id: 2, title: 'Launch', description: 'Liquidity and deployment.', image: "https://example.com/image2.jpg" },
+            { id: 3, title: 'Growth', description: 'Ecosystem partnerships.', image: "https://example.com/image3.jpg" }
           ]}
         />
       </div>
@@ -64,7 +64,7 @@ export default function Home() {
           title="Tokenomics"
           description="Transparently outlined economics of MemNova."
           tokenData={[
-            { value: '1M', description: 'Total Supply' },
+            { value: '1,000,000', description: 'Total Supply' },
             { value: '20%', description: 'Liquidity' },
             { value: '5%', description: 'Development Fund' },
             { value: '10%', description: 'Market Cap' }
