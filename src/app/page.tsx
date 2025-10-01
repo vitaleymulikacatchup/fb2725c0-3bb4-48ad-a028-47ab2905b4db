@@ -34,7 +34,7 @@ export default function Home() {
       <div id="hero" data-section="hero" style={{ background: 'linear-gradient(135deg, #0b0f14 0%, #0a1020 100%)' }}>
         <TokenBillboardHero
           title="Join the Futuristic Memecoin Revolution!"
-          subtitle="The memecoin of tomorrow, today!"
+          subtitle="Fast, community-powered momentum for memecoin fans"
           contractAddress="0x123456789abcdef"
           copyButtonText="Copy to clipboard"
           copiedText="Copied!"
@@ -42,15 +42,15 @@ export default function Home() {
       </div>
       <div id="about" data-section="about" style={{ background: 'linear-gradient(135deg, #0b0f14 0%, #0a1020 100%)' }}>
         <SplitAbout
-          description="MemNova is the memecoin that captures the essence of community and innovation."
+          description="MemNova unites community-driven innovation with transparent tokenomics to reward participation."
         />
       </div>
       <div id="roadmap" data-section="roadmap" style={{ background: 'linear-gradient(135deg, #0b0f14 0%, #0a1020 100%)' }}>
         <StackRoadmapTimeline
           items={[
-            { id: 1, title: 'Project Genesis', description: 'Foundation phase with research and core infrastructure.', image: "https://example.com/image1.jpg" },
-            { id: 2, title: 'Launch', description: 'Official memecoin launch and community building.', image: "https://example.com/image2.jpg" },
-            { id: 3, title: 'Growth', description: 'Scaling and expanding the ecosystem.', image: "https://example.com/image3.jpg" }
+            { id: 1, title: 'Genesis', description: 'Foundations/core infrastructure.', image: "https://example.com/image1.jpg" },
+            { id: 2, title: 'Launch', description: 'Token debut/liquidity.', image: "https://example.com/image2.jpg" },
+            { id: 3, title: 'Growth', description: 'Ecosystem expansion and partnerships.', image: "https://example.com/image3.jpg" }
           ]}
         />
       </div>
